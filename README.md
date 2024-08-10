@@ -3,10 +3,10 @@
 This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H).
 
 ### Desktop Design
-![Desktop design preview for Notifications page coding challenge](./design/desktop-design.jpg)
+![Desktop design preview for Notifications page coding challenge](./design/desktop-design-light.jpg)
 
 ### Mobile Design
-![Mobile design preview for Notifications page solution coding challenge](./design/mobile-design.jpg)
+![Mobile design preview for Notifications page solution coding challenge](./design/mobile-design-light.jpg)
 
 ### The challenge
 
