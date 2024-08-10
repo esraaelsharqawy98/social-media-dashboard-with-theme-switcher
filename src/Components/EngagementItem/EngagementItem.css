@@ -1,0 +1,64 @@
+.engagement-card{
+    flex: 1 1 calc(100% / 4 - 2rem);
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--Light-Grayish-Blue);
+    border-radius: 0.5rem;
+}
+.dark .engagement-card{
+    background-color: var(--Dark-Desaturated-Blue);
+}
+.dark .engagement-card:hover{
+    filter: brightness(1.25);
+}
+.engagement-card:hover{
+    filter: brightness(.95);
+    cursor: pointer;
+  }
+.engagement-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.engagement-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.engagement-metric{
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 700;
+}
+.dark .engagement-metric{
+    color: var(--Desaturated-Blue);
+}
+.engagement-value{
+    font-weight: 700;
+    color: var(--Very-Dark-Blue);
+    font-size: 30px;
+}
+.dark .engagement-value{
+    color: var(--White);
+}
+.engagement-change{
+    font-weight: 700;
+    display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+@media screen and (max-width: 992px) {
+    .engagement-card{
+      flex: 1 1 calc(100% / 2 -  2rem);
+    }
+}
+@media screen and (max-width:576px) {
+  .engagement-card{
+    flex: 1 1 calc(100% -  2rem);
+  }
+}

@@ -1,0 +1,106 @@
+.follower-card {
+  width: calc(100% / 4 - 2rem);
+  height: 275px;
+  background-color: var(--Light-Grayish-Blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  row-gap: 2rem;
+}
+.dark .follower-card{
+  background-color: var(--Dark-Desaturated-Blue);
+}
+.dark .follower-card:hover{
+  filter: brightness(1.25);
+}
+.follower-card:hover{
+  filter: brightness(.95);
+  cursor: pointer;
+}
+.bg-Facebook {
+  border-top: 7px solid var(--Facebook);
+}
+.bg-Twitter {
+  border-top: 7px solid var(--Twitter);
+}
+.bg-Instagram {
+  position: relative;
+  padding-top: 7px;
+  border-radius: .5rem;
+}
+
+.bg-Instagram::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: var(--Instagram);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.bg-YouTube {
+  border-top: 7px solid var(--YouTube);
+}
+.follower-info {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.follower-username {
+  font-weight: 700;
+  color: var(--Very-Dark-Blue);
+}
+.dark .follower-username{
+  color: var(--Desaturated-Blue);
+}
+.follower-statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.follower-count {
+  font-weight: 700;
+  font-size: 56px;
+  color: var(--Very-Dark-Blue);
+}
+.dark .follower-count{
+  color: var(--White);
+}
+.follower-metric {
+  font-weight: 400;
+  color: var(--Dark-Grayish-Blue);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 1rem;
+}
+.dark .follower-metric{
+  color: var(--Desaturated-Blue);
+}
+.follower-change {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.up {
+  color: var(--Lime-Green);
+}
+.down {
+  color: var(--Bright-Red);
+}
+
+@media screen and (max-width: 992px) {
+    .follower-card{
+      flex: 1 1 calc(100% / 2 -  2.5rem);
+    }
+}
+@media screen and (max-width:576px ) {
+  .follower-card{
+    flex: 1 1 calc(100% -  2.5rem);
+  }
+}
