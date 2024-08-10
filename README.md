@@ -10,8 +10,8 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ### Mobile Design
 <p align="center">
-  <img src="./design/mobile-design-light.jpg" alt="Mobile design preview for Social media dashboard with theme switcher coding challenge" width="45%" />
-  <img src="./design/mobile-design-dark.jpg" alt="Mobile design preview for Social media dashboard with theme switcher coding challenge" width="45%" />
+  <img src="./design/mobile-design-light.jpg" alt="Mobile design preview for Social media dashboard with theme switcher coding challenge" width="45%" height="50%" />
+  <img src="./design/mobile-design-dark.jpg" alt="Mobile design preview for Social media dashboard with theme switcher coding challenge" width="45%" height="50%" />
 </p>
 
 ### The challenge
