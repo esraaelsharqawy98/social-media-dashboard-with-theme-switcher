@@ -3,7 +3,6 @@
 This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H).
 
 ### Desktop Design
-<<<<<<< HEAD
 <p align="center">
   <img src="./design/desktop-design-light.jpg" alt="Desktop design preview for Social media dashboard with theme switcher coding challenge" width="45%" />
   <img src="./design/desktop-design-dark.jpg" alt="Desktop design preview for Social media dashboard with theme switcher coding challenge" width="45%" />
@@ -14,12 +13,6 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
   <img src="./design/mobile-design-light.jpg" alt="Mobile design preview for Social media dashboard with theme switcher coding challenge" width="45%"/>
   <img src="./design/mobile-design-dark.jpg" alt="Mobile design preview for Social media dashboard with theme switcher coding challenge" width="45%" />
 </p>
-=======
-![Desktop design preview for Notifications page coding challenge](./design/desktop-design-light.jpg)
-
-### Mobile Design
-![Mobile design preview for Notifications page solution coding challenge](./design/mobile-design-light.jpg)
->>>>>>> a9a0d87 (edit project)
 
 ### The challenge
 
@@ -30,7 +23,7 @@ Users should be able to:
 - Toggle color theme to their preference
 
 ### Demo
-- Live Site URL: ()
+- Live Site URL: (https://social-media-dashboard-with-theme-switcher-theta-orcin.vercel.app/)
 
 
 ### Built with
